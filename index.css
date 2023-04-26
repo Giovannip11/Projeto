@@ -1,18 +1,19 @@
-*{ margin: 0;
-padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-
-
-nav {
+nav ul li {
     text-align: center;
-    color: blue; 
+    color: blue;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
     background-color: crimson;
- 
+    font-size: 20px;
+
 }
+
 
 
 
@@ -21,4 +22,21 @@ nav :hover {
     background-color: blue;
 }
 
-section { background-color: aqua; padding: 50px;}
+.secao1 {
+    background-color: purple;
+    color: white;
+    padding: 100px;
+}
+
+.Texto1 {
+    max-width: 300px;
+    font-size: 20px;
+}
+#anime { width: 400px;
+height: auto;
+position: relative;
+bottom: 300px;
+}
+.dale { text-align: center;
+}
+.secao2 { background-color: green;}
