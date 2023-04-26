@@ -14,7 +14,9 @@ nav ul li {
 
 }
 
-
+h1 {
+    font-size: 50px;
+}
 
 
 nav :hover {
@@ -22,21 +24,64 @@ nav :hover {
     background-color: blue;
 }
 
-.secao1 {
+#secao1 {
     background-color: purple;
     color: white;
     padding: 100px;
+
 }
 
 .Texto1 {
     max-width: 300px;
-    font-size: 20px;
+    font-size: 30px;
 }
-#anime { width: 400px;
-height: auto;
-position: relative;
-bottom: 300px;
+
+#anime {
+    width: 400px;
+    height: auto;
+    position: relative;
+    bottom: 500px;
 }
-.dale { text-align: center;
+
+.dale {
+    text-align: center;
 }
-.secao2 { background-color: green;}
+
+#secao2 {
+    background-color: pink;
+    color: black;
+    padding: 100px;
+}
+
+.texto2 {
+    max-width: 300px;
+    font-size: 30px;
+}
+
+.dele {
+    text-align: center;
+}
+
+#imagem2 {
+    width: 400px;
+    height: auto;
+    position: relative;
+    bottom: 600px;
+    left: 300px;
+}
+
+#imagem3 {
+    width: 400px;
+    height: auto;
+    position: relative;
+    bottom: 300px;
+}
+#secao3 { background-color: lightcoral;
+color: white;}
+.texto3 {max-width: 300px;
+font-size: 30px;}
+#instagram { width: 100px;}
+#twitter { width: 100px;}
+footer { background-color: gray; color: white;}
+#seta { width: 20px;}
+#textoseta{ font-size: 20px;}
